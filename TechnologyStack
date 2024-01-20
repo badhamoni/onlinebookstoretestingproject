@@ -1,0 +1,13 @@
+1. Application to test - onlinebookstore - apache tomcat 10 - mysql db
+2. Maven Project
+3. Java 19
+4. Selenium WebDriver
+5. TestNG
+6. Apache POI - if there is any excel.
+7. Jackson databind - to read data from JSON
+8. Extent Reporting
+----------------
+8. Read data from db mysql
+9. Log4j for logging
+10. Jenkins
+11. Git

@@ -1,0 +1,9 @@
+{
+  "Description": "Validate successful user registration when valid details are provided",
+  "Email": "random@gmail.com",
+  "Password": "oidlkfas",
+  "FirstName": "Jeff",
+  "LastName": "Beckham",
+  "Address": "123 ST 51209",
+  "MobileNumber": "6864737783"
+}
