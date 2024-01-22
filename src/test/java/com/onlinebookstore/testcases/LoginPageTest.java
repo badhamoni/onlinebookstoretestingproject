@@ -22,8 +22,10 @@ public class LoginPageTest extends TestBase {
         homePage = new HomePage();//creates copy of home page
         log.info("Step 2: Confirm Page Navigate to Home Page");
         homePage.confirmPageNavigation();
+        addScreenshot();
         log.info("Step 3: Click on Login Button to Navigate to Login Page");
         loginPage = homePage.clickOnLogin();
+        addScreenshot();
         log.info("Step 4: Confirm Page Navigate to Login Page");
         loginPage.confirmPageNavigation();
         log.info("Step 5: Click on Admin Link");
@@ -32,6 +34,7 @@ public class LoginPageTest extends TestBase {
         log.info("Step 6: Peform Admin Login");
         homePage = loginPage.performAdminLogin(properties.getProperty("adminusername"), properties.getProperty("adminpassword"));
         log.info("Step 7: Confirm Page Navigation to Home Page");
+        addScreenshot();
 //        homePage.confirmPageNavigation();
     }
 
