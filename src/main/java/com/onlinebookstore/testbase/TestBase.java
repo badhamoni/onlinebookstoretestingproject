@@ -102,4 +102,8 @@ public class TestBase extends CustomSeleniumActions {
             e.printStackTrace();
         }
     }
+
+    public void addScreenshot(){
+        ExtentReport.getScreenShot(testStep.get(), getDriver());
+    }
 }
