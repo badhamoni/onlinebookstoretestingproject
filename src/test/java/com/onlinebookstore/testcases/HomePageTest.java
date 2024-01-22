@@ -4,7 +4,11 @@ import com.onlinebookstore.pages.HomePage;
 import com.onlinebookstore.testbase.TestBase;
 import org.testng.annotations.Test;
 
+import java.util.logging.Logger;
+
 public class HomePageTest extends TestBase {
+
+    Logger log = Logger.getLogger(HomePageTest.class.getName());
     HomePage homePage = null;
 
     public HomePageTest() {

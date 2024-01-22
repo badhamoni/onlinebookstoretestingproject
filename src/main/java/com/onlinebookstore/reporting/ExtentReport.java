@@ -32,6 +32,10 @@ public class ExtentReport {
         ExtentReport.extentReportFileName = extentReportFileName;
     }
 
+    public static void getScreenShot(ExtentTest report, WebDriver driver) {
+        report.info("Screeenshot", captureScreenShot(driver));
+    }
+
     public static void setupExtentReport(ExtentReports extent) {//extent = null//calling in test base and passing new ExtentReports
         String timeStamp = (new SimpleDateFormat("MMddyy_HHmmss").format(new Date()));
         extentReportFileName = System.getProperty("user.dir") + "\\test-output\\ExtentReports\\" + timeStamp + ".html";
