@@ -20,5 +20,6 @@ public class HomePageTest extends TestBase {
         launchApplication();
         homePage = new HomePage();//creates copy of home page
         homePage.confirmPageNavigation();
+        addScreenshot();
     }
 }
